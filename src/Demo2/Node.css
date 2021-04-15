@@ -1,0 +1,27 @@
+.nodes__wrapper {
+    padding-top: 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.left.tick {
+    position: absolute;
+    width: calc( 50% + 40px );
+    top: 40px;
+    left: 50%;
+    border: 1px solid black;
+    transform: rotate(-45deg);
+    transform-origin: top left;
+    z-index: 1;
+}
+
+.right.tick {
+    position: absolute;
+    width: calc( 50% + 40px );
+    top: 40px;
+    right: 50%;
+    border: 1px solid black;
+    transform: rotate(45deg);
+    transform-origin: top right;
+    z-index: 1;
+}

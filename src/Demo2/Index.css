@@ -1,0 +1,16 @@
+.flex-item{
+    flex: 1 0 auto;
+    height: auto;
+}
+
+.flex-item:before {
+    content: '';
+    display: block;
+    padding-top: 50%;
+}
+
+.flex-item:after {
+    content: '';
+    display: block;
+    padding-bottom: 50%;
+}
